@@ -8,13 +8,9 @@ export const links = [
         path: '/'
 
     },
+    
     {
-        name: "Navbar",
-        path: '/navbar'
-
-    },
-    {
-        name: "AboutMe",
+        name: "About",
         path: '/about'
 
     },

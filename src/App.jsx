@@ -1,12 +1,12 @@
 
 import './App.css';
-
+import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/navbar';
-import Home from './components/Home';
-import AboutMe from './components/AboutMe'; 
-import Brands from './components/Brands'; 
-import Contact from './components/Contact';
-import Blog from './components/Blog';
+import Home from './PAGES/HOME/Home';
+import About from './PAGES/ABOUT/About'; 
+import Brands from './PAGES/BRANDS/Brands'; 
+import Contact from './PAGES/CONTACTS/Contact';
+import Blog from  './PAGES/BLOG/Blog';
 
 
 
@@ -15,13 +15,14 @@ import Blog from './components/Blog';
 const App = () => {
   return (
     <div>
+      <BrowserRouter>
       <Navbar />
       <Home />
-      <AboutMe />
+      <About />
       <Brands />
       <Contact />
       <Blog />
-    
+      </BrowserRouter>
       
 
   
