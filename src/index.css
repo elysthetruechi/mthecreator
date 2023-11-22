@@ -41,3 +41,29 @@ a{
   object-fit: cover;
   width: 100%;
 }*/
+.btn{
+  color:white;
+  width:300px;
+  height: 59px;
+  margin: 0 auto;
+  font-size: 17px;
+  padding: 0.9rem 4rem;
+  background: rgba(45, 35, 223, 1);
+  border-radius: 12px;
+  box-shadow: rgba(22, 22, 22, 0.2);
+  transition: var(--transition);
+}
+.btn:hover{
+  background: white;
+  color: rgba(45, 35, 223, 1);
+  border: 2px solid rgba(45, 35, 223, 1);
+}
+
+.btn.lg{
+  padding: 1.2rem 3rem;
+  border-radius: 2rem;
+}
+.btn.sm{
+  padding:0.4rem 1.2rem;
+  
+}

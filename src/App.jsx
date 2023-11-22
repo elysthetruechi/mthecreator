@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Home from './PAGES/HOME/Home';
 import About from './PAGES/ABOUT/About'; 
@@ -17,11 +17,14 @@ const App = () => {
     <div>
       <BrowserRouter>
       <Navbar />
-      <Home />
-      <About />
-      <Brands />
-      <Contact />
-      <Blog />
+      <Routes>
+      <Route index element={<Home/>}/>
+      <Route path='about' element={<About/>}/>
+      <Route path='brands' element={<Brands/>}/>
+      <Route path='contact' element={<Contact/>}/>
+      <Route path='blog' element={<Blog/>}/>
+      </Routes>
+      
       </BrowserRouter>
       
 

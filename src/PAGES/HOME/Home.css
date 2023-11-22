@@ -1,0 +1,43 @@
+.main__header{
+    width: 100vw;
+    height: 100vw;
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+}
+.main__header-container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6rem;
+}
+.main__header-right{
+    margin-top: -3rem;
+}
+.main__header-right p{
+    font-family:'Montserrat', sans-serif;
+    margin: 1rem 0 3.5rem;
+    font-size:15px;
+    width: 100%;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 1);
+}
+.main__header-right h1{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 63px;
+    color:rgba(45, 35, 223, 1);
+}
+.main__header-left{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.main__header-circle{
+    width: 25rem;
+    height:25rem;
+    
+}
