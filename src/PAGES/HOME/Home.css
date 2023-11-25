@@ -1,6 +1,6 @@
 .main__header{
     width: 100vw;
-    height: 100vw;
+    height:calc(100vh - 3rem);
     display: grid;
     place-items: center;
     margin-top: 3rem;
@@ -26,7 +26,7 @@
 }
 .main__header-right h1{
     font-family:'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 40px;
     line-height: 63px;
     color:rgba(45, 35, 223, 1);
@@ -35,9 +35,34 @@
     display: grid;
     place-items: center;
     position: relative;
+    right: 54px;
 }
 .main__header-circle{
-    width: 25rem;
-    height:25rem;
-    
+    width: 38rem;
+    height:38rem;
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(45, 35, 223, 0.08);
+
 }
+.main__header-image{
+width: 680px;
+height: 900px;
+position:absolute;
+top:10%;
+left:10%;
+}
+
+.programs{
+    background: rgba(238, 237, 252, 1);
+}
+.nutrition {  display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: column dense;
+    grid-template-areas:
+      ". ."
+      ". .";
+  }
+  

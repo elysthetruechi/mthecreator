@@ -1,10 +1,11 @@
 import './Home.css'
 import MainHeader from '../../components/mainHeader';
+import Programs from '../../components/programs';
 const Home =() => {
     return(
       <>
    <MainHeader />
-   Home
+   <Programs />
    </>
     )
   }
