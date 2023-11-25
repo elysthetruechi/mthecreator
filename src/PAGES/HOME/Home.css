@@ -56,7 +56,8 @@ left:10%;
 .programs{
     background: rgba(238, 237, 252, 1);
 }
-.nutrition {  display: grid;
+.Program__wrapper{
+    display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     grid-template-rows: 1fr 1fr;
     gap: 10px 10px;

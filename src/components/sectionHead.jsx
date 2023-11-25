@@ -2,7 +2,7 @@
 
 const sectionHead = ({title, className}) => {
   return (
-    <div className="section__head">
+    <div className={`section__head ${className}`}>
     <h2>{title}</h2>
 </div>
   )
