@@ -27,7 +27,7 @@
 .main__header-right h1{
     font-family:'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 38px;
     line-height: 63px;
     color:rgba(45, 35, 223, 1);
 }
@@ -38,8 +38,8 @@
     right: 54px;
 }
 .main__header-circle{
-    width: 38rem;
-    height:38rem;
+    width: 28rem;
+    height:28rem;
     position: absolute;
     border-radius: 50%;
     background: rgba(45, 35, 223, 0.08);
