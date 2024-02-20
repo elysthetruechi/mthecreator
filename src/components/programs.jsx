@@ -1,6 +1,7 @@
 import SectionHead from "./sectionHead"
 import {programs} from "../data"
 import Card from "../UI/card"
+import { Link } from "react-router-dom"
 
 
 const Programs = () => {
@@ -16,6 +17,7 @@ const Programs = () => {
                 <Card className= "programs__program" key={id}>
                   <span>{image}</span>
                    <h3>{title}</h3>
+                   <Link to= {path} className="btn sm">Learn more</Link>
                 </Card>
               )
             })
